@@ -1,1 +1,1 @@
-# cohort 02 jaxrs deja-vu :)
+# Cohort 02 JAX-RS deja-vu :)
