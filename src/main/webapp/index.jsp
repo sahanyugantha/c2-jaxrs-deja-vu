@@ -31,6 +31,7 @@
 		<div class="row">
 			<div class="col-sm-10 offset-sm-1">
 				<h2>Jersey RESTful Web Application for Cohort 02</h2>
+				<h3>Bunch of muttals watching this right now</h3>
 				<div class="alert alert-info" role="alert">
 				 	<p><a href="api/v1/car">Car API</a>
 				</div>
