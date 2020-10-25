@@ -27,7 +27,8 @@ public class DatabaseConfiguration {
 	public Connection getDbConnection() throws SQLException {
 		Driver driver = new Driver();
 		DriverManager.registerDriver(driver);
-		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/cardb", "root", "mysql");
+		//Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/cardb", "root", "mysql");
+		Connection conn = DriverManager.getConnection("jdbc:mysql://us-cdbr-east-02.cleardb.com/heroku_beb17b1657af8fb", "b33a7e97cdf108", "4b9c42d3");
 		return conn;
 	}
 	
