@@ -14,7 +14,7 @@ public class CarTest {
 	
 	@Test
 	public void testFetchAll() {
-		int expected = 12;
+		int expected = 13;
 		
 		CarDao carDao = new CarDao();
 		List<Car> carList = carDao.getAll();

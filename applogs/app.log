@@ -1,1 +1,6 @@
-11:36:03.468 [main] INFO  com.solent2.againjaxrs.dao.CarDao - Car data fetched by user
+09:41:22.663 [main] INFO  com.solent2.againjaxrs.dao.CarDao - Car data fetched by user
+09:41:35.284 [main] INFO  com.solent2.againjaxrs.dao.CarDao - Car data fetched by user
+09:41:43.220 [main] INFO  com.solent2.againjaxrs.dao.CarDao - Car data fetched by user
+09:43:31.996 [main] INFO  com.solent2.againjaxrs.dao.CarDao - Car data fetched by user
+09:44:56.715 [main] INFO  com.solent2.againjaxrs.dao.CarDao - Car data fetched by user
+09:45:19.547 [main] INFO  com.solent2.againjaxrs.dao.CarDao - Car data fetched by user
