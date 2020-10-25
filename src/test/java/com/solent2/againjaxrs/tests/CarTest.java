@@ -11,19 +11,31 @@ import com.solent2.againjaxrs.model.Car;
 
 public class CarTest {
 	
-	
 	@Test
-	public void testFetchAll() {
-		int expected = 13;
+	public void sampleTest() {
+		int expected = 3;
 		
 		CarDao carDao = new CarDao();
-		List<Car> carList = carDao.getAll();
+		List<Car> carList = carDao.fakeData();
 		
 		int actual = carList.size();
 		
-		assertEquals(expected, actual);		
-		
+		assertEquals(expected, actual);
 	}
+	
+	
+//	@Test
+//	public void testFetchAll() {
+//		int expected = 13;
+//		
+//		CarDao carDao = new CarDao();
+//		List<Car> carList = carDao.getAll();
+//		
+//		int actual = carList.size();
+//		
+//		assertEquals(expected, actual);		
+//		
+//	}
 	
 //	@Test
 //	public void testaddCar() {

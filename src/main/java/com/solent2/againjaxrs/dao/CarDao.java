@@ -21,7 +21,7 @@ public class CarDao {
 	
 	private Logger logger = LogManager.getLogger(CarDao.class);
 	
-	private List<Car> fakeData(){
+	public List<Car> fakeData(){
 		List<Car> carList = new ArrayList<Car>();
 		
 		carList.add(new Car(0, "Axio", "Toyota", 2020, CAR_TYPE.SEDAN));
