@@ -13,6 +13,7 @@ public class CarTest {
 	
 	@Test
 	public void sampleTest() {
+		
 		int expected = 3;
 		
 		CarDao carDao = new CarDao();
